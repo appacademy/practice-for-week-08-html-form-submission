@@ -59,7 +59,7 @@ const server = http.createServer((req, res) => {
           <h2>Created Dog:</h2>
           <h3>Name: ${dog.name}</h3>
           <div>Pattern: ${dog.color}</div>
-          <div>Size: ${dog.age} years old</div>
+          <div>Age: ${dog.age} years old</div>
           <div>Description: ${dog.description}</div>
         </div>
       ` : "<div>No dog created yet!</div>");
